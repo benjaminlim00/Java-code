@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004488">
+
+    <ImageView
+        android:src="@drawable/smiledog"
+        android:scaleType="centerInside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/centerText"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:text="RELATIVE LAYOUT RULES!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/myButton"
+        android:layout_margin="40dp"
+        android:padding="40dp"
+        android:layout_below="@id/centerText"
+        android:layout_centerHorizontal="true"
+        android:text="Press Me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:text="Go Second Activity"
+        android:background="#F88"
+        android:padding="23dp"
+        android:layout_below="@id/myButton"
+        android:layout_width="199dp"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/buttonThree"
+        android:text="Detailed View"
+        android:background="#FF80"
+        android:padding="23dp"
+        android:layout_below="@id/myButton"
+        android:layout_toRightOf="@id/buttonTwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

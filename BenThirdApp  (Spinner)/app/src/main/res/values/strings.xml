@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BenThirdApp</string>
+    <string-array name="actions">
+        <item>Do Nothing</item>
+        <item>Take Picture</item>
+        <item>Go to Google</item>
+        <item>Edit Contact</item>
+        <item>Make a call</item>
+    </string-array>
+</resources>

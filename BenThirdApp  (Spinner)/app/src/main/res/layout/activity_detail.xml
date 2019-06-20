@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_margin="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1da38c"
+        android:entries="@array/actions"
+        android:layout_weight="1"/>
+
+
+    <Button
+        android:id="@+id/goBack"
+        android:layout_margin="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/performSel"
+        android:layout_margin="20dp"
+        android:background="#088"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perform Selection"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
